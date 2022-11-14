@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <style>
+      body {
+	  font-family: 'Cantarell';
+      }
+    </style>
+  </head>
+  <body>
+
+    <form action="validate.php" method="POST">
+      <input name="name" type="text" placeholder="Name" required/><br/>
+      <input name="email" type="email" placeholder="Email" required/><br/>
+      <input name="website" type="text" placeholder="Website"/><br/>
+      <textarea cols="30" name="comment" rows="10" placeholder="Comment"></textarea><br/>
+      <input name="gender" id="female" type="radio" value="female">
+      	<label for="female">Female</label>     
+      </input>
+      <input name="gender" id="male" type="radio" value="male">
+      	<label for="male">Male</label>     
+      </input><br/>
+      <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
