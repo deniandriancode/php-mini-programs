@@ -1,0 +1,6 @@
+{
+    "name": "deni/markdown-php",
+    "require": {
+        "league/commonmark": "^2.3"
+    }
+}
