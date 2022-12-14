@@ -1,0 +1,11 @@
+{
+    "name": "deni/a-z-animal-webscraping",
+    "autoload": {
+        "psr-4": {
+            "Deni\\AZAnimalWebscraping\\": "src/"
+        }
+    },
+    "require": {
+        "fabpot/goutte": "^4.0"
+    }
+}
